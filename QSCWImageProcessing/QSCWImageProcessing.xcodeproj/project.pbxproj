@@ -13,6 +13,8 @@
 		E12F27FE1F985A64009EF5A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E12F27FD1F985A64009EF5A9 /* Assets.xcassets */; };
 		E12F28011F985A64009EF5A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E12F27FF1F985A64009EF5A9 /* LaunchScreen.storyboard */; };
 		E12F28041F985A64009EF5A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E12F28031F985A64009EF5A9 /* main.m */; };
+		E12F280D1F985BAA009EF5A9 /* ImgToMatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E12F280C1F985BAA009EF5A9 /* ImgToMatViewController.m */; };
+		E12F28101F985C2E009EF5A9 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E12F280F1F985C2E009EF5A9 /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		E12F28001F985A64009EF5A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E12F28021F985A64009EF5A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E12F28031F985A64009EF5A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E12F280B1F985BAA009EF5A9 /* ImgToMatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImgToMatViewController.h; sourceTree = "<group>"; };
+		E12F280C1F985BAA009EF5A9 /* ImgToMatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImgToMatViewController.m; sourceTree = "<group>"; };
+		E12F280E1F985C2E009EF5A9 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		E12F280F1F985C2E009EF5A9 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +48,7 @@
 		E12F27E81F985A64009EF5A9 = {
 			isa = PBXGroup;
 			children = (
+				E12F280A1F985B8D009EF5A9 /* ImageToMatrix */,
 				E12F27F31F985A64009EF5A9 /* QSCWImageProcessing */,
 				E12F27F21F985A64009EF5A9 /* Products */,
 			);
@@ -58,6 +65,8 @@
 		E12F27F31F985A64009EF5A9 /* QSCWImageProcessing */ = {
 			isa = PBXGroup;
 			children = (
+				E12F280E1F985C2E009EF5A9 /* MainViewController.h */,
+				E12F280F1F985C2E009EF5A9 /* MainViewController.m */,
 				E12F27F41F985A64009EF5A9 /* AppDelegate.h */,
 				E12F27F51F985A64009EF5A9 /* AppDelegate.m */,
 				E12F27F71F985A64009EF5A9 /* ViewController.h */,
@@ -69,6 +78,15 @@
 				E12F28031F985A64009EF5A9 /* main.m */,
 			);
 			path = QSCWImageProcessing;
+			sourceTree = "<group>";
+		};
+		E12F280A1F985B8D009EF5A9 /* ImageToMatrix */ = {
+			isa = PBXGroup;
+			children = (
+				E12F280B1F985BAA009EF5A9 /* ImgToMatViewController.h */,
+				E12F280C1F985BAA009EF5A9 /* ImgToMatViewController.m */,
+			);
+			path = ImageToMatrix;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,8 +160,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E12F280D1F985BAA009EF5A9 /* ImgToMatViewController.m in Sources */,
 				E12F27F91F985A64009EF5A9 /* ViewController.m in Sources */,
 				E12F28041F985A64009EF5A9 /* main.m in Sources */,
+				E12F28101F985C2E009EF5A9 /* MainViewController.m in Sources */,
 				E12F27F61F985A64009EF5A9 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
